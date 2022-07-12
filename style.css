@@ -1,0 +1,31 @@
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+#container{
+    display: flex;
+   
+    align-items: center;
+    justify-content: center;
+    width: 800px;
+    
+
+    /* top: calc( ( 100vh - 50vh) /2 ); */
+    /* left: calc((100vw - 50vw)/2); */
+    flex-wrap: wrap;
+}
+
+.square{
+    background-color: #1d1d1d;
+    height: 1rem;
+    width: 1rem;
+    margin: 2px;
+    transition: 5s ease;
+}
+.square:hover{
+    transition-duration: 0s;
+}
